@@ -1,6 +1,7 @@
 .cover {
     background-image: url(../../images/cover-trains.jpg);
-    background-size: 100%;
+    background-size: 1184px;
+    object-fit: cover;
     box-sizing: border-box;
     max-width: 1184px;
     height: 740px;
@@ -12,3 +13,6 @@
     position: relative;
 }
 
+.cover:hover .cover__overlay{
+    opacity: 0.8;
+}
