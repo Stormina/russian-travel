@@ -1,10 +1,9 @@
-.place__paragraph {
+.place__website_link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
     color: #FFFFFF;
-    margin: 0;
-    max-width: 484px;
-    grid-column-start: 2;
 }
