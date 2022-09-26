@@ -6,4 +6,6 @@
     line-height: 18px;
     color: #FFFFFF;
     margin: 0;
+    padding-left: 0;
+    list-style-type: none;
 }

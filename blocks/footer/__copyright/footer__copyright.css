@@ -5,5 +5,6 @@
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    text-decoration: none;
+    margin: 0;
+    float: right;
 }
