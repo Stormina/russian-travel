@@ -7,8 +7,15 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+  max-width: 28px;
 }
 
 .header__lang-link:first-of-type {
   margin-right: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+      max-width: 22px;
+  }
 }
