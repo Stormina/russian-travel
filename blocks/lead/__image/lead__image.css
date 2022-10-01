@@ -1,27 +1,27 @@
 .lead__image {
-    background-size: 100%;
     max-width: 984px;
-    max-height: 615px;
+    height: 615px;
+    object-fit: cover;
     margin: auto;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__image {
         max-width: 928px;
-        max-height: 580px;
+        height: 580px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__image {
         max-width: 768px;
-        max-height: 480px;
+        height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__image {
         max-width: 320px;
-        max-height: 200px;
+        height: 200px;
     }
 }

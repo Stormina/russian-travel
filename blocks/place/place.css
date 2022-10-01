@@ -2,10 +2,32 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, auto);
-    gap: 26px 40px;
+    gap: 22px 40px;
     padding-bottom: 80px;
 }
 
 .place:nth-last-of-type(1) {
     padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        gap: 26px 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        gap: 25px 28px;
+        padding-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto);
+        gap: 32px;
+        padding-bottom: 50px;
+    }
 }
