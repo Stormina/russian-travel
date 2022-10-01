@@ -4,14 +4,14 @@
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
-    margin: 0;
+    margin: 0 0 26px 0;
     max-width: 484px;
-    grid-column-start: 2;
 }
 
 @media screen and (max-width: 1024px) {
     .place__paragraph {
         max-width: 456px;
+        margin: 0 0 26px 0;
     }
 }
 
@@ -20,15 +20,15 @@
         max-width: 352px;
         font-size: 16px;
         line-height: 26px;
+        margin: 0 0 25px 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
-        grid-column-start: 1;
         max-width: 288px;
         font-size: 16px;
         line-height: 26px;
-        margin: 0 16px;
+        margin: 0 0 25px 0;
     }
 }
