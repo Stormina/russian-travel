@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 724px) {
   .footer__link {
     display: block;
     font-size: 24px;

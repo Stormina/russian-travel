@@ -3,9 +3,8 @@
   margin-right: 18px;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 724px) {
   .footer__list {
-    display: block;
     margin-right: 0;
   }
 }

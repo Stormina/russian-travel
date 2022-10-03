@@ -37,7 +37,7 @@
     max-width: 288px;
     padding-top: 64px;
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 12px;
     margin: 0 16px;
   }
 }
