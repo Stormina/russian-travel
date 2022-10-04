@@ -1,22 +1,11 @@
 .cover__background {
-  width: 100%;
-  height: 100%;
+  max-width: 1184px;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
-}
-
-.cover__background:hover::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: #2A2C2F;
-  opacity: 0.8;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  margin: 0 auto;
 }
 
 .cover__background::after {
@@ -29,4 +18,8 @@
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+.cover__background:hover::after {
+  opacity: 0.8;
 }

@@ -7,11 +7,13 @@
   text-decoration: none;
 }
 
+.footer__link:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 724px) {
   .footer__link {
-    display: block;
     font-size: 24px;
     line-height: 24px;
-    margin-bottom: 32px;
   }
 }
